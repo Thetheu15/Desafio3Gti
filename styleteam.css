@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('imagens/pokemons.webp');
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.timespokemon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+}
+.timespokemontext{
+  color: white;
+}
+.timespokemonimg{
+  height: 100px;
+}
+.pokemon-card-wrapper {
+  background-color: white;
+  display: inline-block;
+  margin: 10px; 
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.3s ease; 
+}
+
+
+.pokemon-card-wrapper:hover {
+  transform: scale(1.1); 
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.card-img-top {
+  width: 150px; 
+  height: 150px; 
+}
+
+
+#teamContainer {
+  text-align: center;
+}
+
+
+
